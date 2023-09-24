@@ -3,14 +3,23 @@ import Image from "next/image";
 import Link from "next/link";
 
 import Button from "../UI/Button";
-import NavBar from "./NavBar";
+import NavBar from "../UI/NavBar";
 
 const Header = () => {
+  const dictionary = {
+    about: "About Us",
+    products: "Products",
+    services: "Services",
+    solutions: "Solutions",
+    contact: "Contact Us",
+    logoAlt: "Whalecomm logo",
+  };
+
   const items = [
-    { name: "About Us", href: "/about-us" },
-    { name: "Products", href: "/products" },
-    { name: "Services", href: "/services" },
-    { name: "Solutions", href: "/solutions" },
+    { name: dictionary.about, href: "/about-us" },
+    { name: dictionary.products, href: "/products" },
+    { name: dictionary.services, href: "/services" },
+    { name: dictionary.solutions, href: "/solutions" },
   ];
 
   return (
@@ -21,12 +30,17 @@ const Header = () => {
       )}
     >
       <Link href="/">
-        <Image src="/images/logoBlack.png" alt="logo" width={80} height={80} />
+        <Image
+          src="/images/logos/whalecommBlack.png"
+          alt={dictionary.logoAlt}
+          width={80}
+          height={80}
+        />
       </Link>
       <div className="flex gap-8">
         <NavBar items={items} />
         <Link href="/contact-us">
-          <Button>Contact Us</Button>
+          <Button>{dictionary.contact}</Button>
         </Link>
       </div>
     </header>

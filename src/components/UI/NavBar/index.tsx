@@ -22,7 +22,7 @@ const NavBar = ({ items }: Props) => {
         <NavigationMenu.Item>
           {items.map((item, index) => (
             <NavigationMenu.Link
-              key={index}
+              key={"nav-item-" + index}
               href={item.href}
               className={classNames(
                 pathname === item.href ? "text-curious-blue-500" : "text-black",
