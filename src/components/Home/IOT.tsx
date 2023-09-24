@@ -16,7 +16,7 @@ const IOT = () => {
   };
 
   return (
-    <div className="w-full max-w-[1440px] m-auto flex justify-center gap-12 pt-32 pb-32">
+    <section className="w-full max-w-[1440px] m-auto flex justify-center gap-12 pt-32 pb-32">
       <div className="w-1/2">
         <h2 className="text-3xl font-semibold leading-[50px] pb-8">
           {dictionary.title[0]}
@@ -45,7 +45,7 @@ const IOT = () => {
       <div className="w-1/2 flex justify-center items-center">
         [GRAPHIC HERE]
       </div>
-    </div>
+    </section>
   );
 };
 

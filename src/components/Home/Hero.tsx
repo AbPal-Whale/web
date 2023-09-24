@@ -10,7 +10,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-curious-blue-500 bg-opacity-10">
+    <section className="bg-curious-blue-500 bg-opacity-10">
       <div className="w-full max-w-[1440px] m-auto flex justify-center gap-12 pt-32 pb-40">
         <div className="w-1/2">
           <h1 className="text-5xl leading-[60px] font-semibold max-w-lg break-words">
@@ -31,7 +31,7 @@ const Hero = () => {
           [GRAPHIC HERE]
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

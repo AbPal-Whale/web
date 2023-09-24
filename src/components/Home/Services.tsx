@@ -43,7 +43,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="w-full max-w-[1440px] m-auto flex flex-col justify-center gap-4 py-20">
+    <section className="w-full max-w-[1440px] m-auto flex flex-col justify-center gap-4 py-20">
       <h6 className="text-center text-4xl font-semibold leading-10 pb-8">
         {dictionary.title}
       </h6>
@@ -55,7 +55,7 @@ const Services = () => {
           [GRAPHIC HERE]
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

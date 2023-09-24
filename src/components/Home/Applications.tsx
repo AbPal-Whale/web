@@ -40,7 +40,7 @@ const Applications = () => {
   ];
 
   return (
-    <div className="bg-curious-blue-500 bg-opacity-10">
+    <section className="bg-curious-blue-500 bg-opacity-10">
       <div className="w-full max-w-[1440px] m-auto flex flex-col justify-center gap-4 py-20 embla">
         <div className="embla__viewport" ref={emblaRef}>
           <div className="w-full flex gap-10 embla__container px-10">
@@ -77,7 +77,7 @@ const Applications = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

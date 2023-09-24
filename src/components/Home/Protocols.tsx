@@ -21,7 +21,7 @@ const Protocols = () => {
   ];
 
   return (
-    <div className="w-full max-w-[1440px] m-auto flex flex-col justify-center gap-4">
+    <section className="w-full max-w-[1440px] m-auto flex flex-col justify-center gap-4">
       <h6 className="text-center text-2xl font-medium leading-10">
         {dictionary.title}
       </h6>
@@ -40,7 +40,7 @@ const Protocols = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
