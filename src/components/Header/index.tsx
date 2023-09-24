@@ -7,11 +7,11 @@ import NavBar from "../UI/NavBar";
 
 const Header = () => {
   const dictionary = {
-    about: "About Us",
-    products: "Products",
-    services: "Services",
-    solutions: "Solutions",
-    contact: "Contact Us",
+    about: "Nosotros",
+    products: "Productos",
+    services: "Servicios",
+    solutions: "Soluciones",
+    contact: "Contacto",
     logoAlt: "Whalecomm logo",
   };
 
@@ -26,7 +26,7 @@ const Header = () => {
     <header
       className={classnames(
         "flex justify-between items-center px-8 py-4",
-        "border-b bg-white",
+        "border-b bg-white"
       )}
     >
       <Link href="/">

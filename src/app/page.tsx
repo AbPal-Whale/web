@@ -1,3 +1,4 @@
+import Applications from "@/components/Home/Applications";
 import Hero from "@/components/Home/Hero";
 import IOT from "@/components/Home/IOT";
 import Protocols from "@/components/Home/Protocols";
@@ -8,8 +9,9 @@ const Home = () => {
     <>
       <Hero />
       <IOT />
-      <Services />
       <Protocols />
+      <Services />
+      <Applications />
     </>
   );
 };
