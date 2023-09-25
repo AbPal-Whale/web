@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   const items = [
-    { name: dictionary.about, href: "/about-us" },
+    { name: dictionary.about, href: "/about" },
     { name: dictionary.products, href: "/products" },
     { name: dictionary.services, href: "/services" },
     { name: dictionary.solutions, href: "/solutions" },
@@ -39,7 +39,7 @@ const Header = () => {
       </Link>
       <div className="flex gap-8">
         <NavBar items={items} />
-        <Link href="/contact-us">
+        <Link href="/contact">
           <Button>{dictionary.contact}</Button>
         </Link>
       </div>

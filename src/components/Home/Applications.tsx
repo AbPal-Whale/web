@@ -13,7 +13,7 @@ const Applications = () => {
     {
       title: "Agronomia",
       image: {
-        path: "/images/placeholdercard.jpeg",
+        path: "/images/farmer.jpg",
         alt: "Agronomia",
       },
       description:
@@ -22,7 +22,7 @@ const Applications = () => {
     {
       title: "Agua potable",
       image: {
-        path: "/images/placeholdercard.jpeg",
+        path: "/images/water.jpeg",
         alt: "Agua potable",
       },
       description:
@@ -31,7 +31,7 @@ const Applications = () => {
     {
       title: "Electricidad",
       image: {
-        path: "/images/placeholdercard.jpeg",
+        path: "/images/electricity.jpg",
         alt: "Electricidad",
       },
       description:

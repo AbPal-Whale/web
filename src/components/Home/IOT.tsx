@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import Image from "next/image";
 
 import Button from "../UI/Button";
 
@@ -43,7 +44,12 @@ const IOT = () => {
         </div>
       </div>
       <div className="w-1/2 flex justify-center items-center">
-        [GRAPHIC HERE]
+        <Image
+          src="/graphics/iot2.png"
+          alt="REPLACE ME"
+          width={600}
+          height={600}
+        />
       </div>
     </section>
   );

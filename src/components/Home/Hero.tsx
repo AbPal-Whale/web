@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import Button from "../UI/Button";
 
@@ -9,6 +10,7 @@ const Hero = () => {
     more: "Ver más",
   };
 
+  // TODO: Update alt text
   return (
     <section className="bg-curious-blue-500 bg-opacity-10">
       <div className="w-full max-w-[1440px] m-auto flex justify-center gap-12 pt-32 pb-40">
@@ -19,7 +21,7 @@ const Hero = () => {
             {dictionary.label[2]}
           </h1>
           <div className="flex gap-4 pt-16">
-            <Link href="/contact-us">
+            <Link href="/contact">
               <Button className="min-w-[200px]">{dictionary.contact}</Button>
             </Link>
             <Button variant="secondary" className="min-w-[200px]">
@@ -28,7 +30,12 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-1/2 flex justify-center items-center">
-          [GRAPHIC HERE]
+          <Image
+            src="/graphics/iot.png"
+            alt="REPLACE ME"
+            width={2000}
+            height={2000}
+          />
         </div>
       </div>
     </section>

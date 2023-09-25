@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import Accordion from "../UI/Accordion";
 
 const Services = () => {
@@ -51,8 +53,13 @@ const Services = () => {
         <div className="w-1/2">
           <Accordion items={items} />
         </div>
-        <div className="w-1/2 flex justify-center items-center">
-          [GRAPHIC HERE]
+        <div className="w-1/2 flex justify-center items-start">
+          <Image
+            src="/graphics/drones.png"
+            alt="REPLACE ME"
+            width={600}
+            height={600}
+          />
         </div>
       </div>
     </section>
