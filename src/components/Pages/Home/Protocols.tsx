@@ -1,11 +1,10 @@
-import Image from "next/image";
-import dictionary from "@public/translate/home/es.json";
-import cx from "classnames";
-import typography from "@components/Typography";
 import SectionWrapper from "@components/SectionWrapper";
-import CustomHoverCard from "@components/UI/HoverCard";
-import Button from "@components/UI/Button";
+import typography from "@components/Typography";
 import Title from "@components/Typography/SectionTitle";
+import Button from "@components/UI/Button";
+import CustomHoverCard from "@components/UI/HoverCard";
+import dictionary from "@public/translate/home/es.json";
+import Image from "next/image";
 
 const Protocols = () => {
   return (
@@ -28,7 +27,6 @@ const Protocols = () => {
                   />
                 }
               >
-                {" "}
                 <div className="flex flex-col gap-6">
                   <p className={typography.body}>{item.description}</p>
                   <div className="flex justify-end">

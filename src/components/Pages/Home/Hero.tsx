@@ -1,5 +1,4 @@
 import Button from "@components/UI/Button";
-import Image from "next/image";
 import Link from "next/link";
 import dictionary from "@public/translate/home/es.json";
 import typography from "@components/Typography";
@@ -22,14 +21,7 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="w-1/2 flex justify-center items-center bg-[#C4DEFD]">
-          {/* <Image
-            src="/graphics/iot.png"
-            alt="REPLACE ME"
-            width={2000}
-            height={2000}
-          /> */}
-        </div>
+        <div className="w-1/2 flex justify-center items-center bg-[#C4DEFD]"></div>
       </div>
     </SectionWrapper>
   );

@@ -1,9 +1,7 @@
 "use client";
 
-import Card from "@components/UI/Card";
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
-import Image from "next/image";
 import SectionWrapper from "@components/SectionWrapper";
 import Title from "@components/Typography/SectionTitle";
 import dictionary from "@public/translate/home/es.json";

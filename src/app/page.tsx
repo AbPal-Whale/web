@@ -1,8 +1,10 @@
-import UseCases from "@/components/Home/UseCases";
-import Hero from "@/components/Home/Hero";
-import Protocols from "@/components/Home/Protocols";
-import Services from "@/components/Home/Services";
-import WhyIOT from "@/components/Home/WhyIOT";
+import Hero from "@components/Pages/Home/Hero";
+import Protocols from "@components/Pages/Home/Protocols";
+import Services from "@components/Pages/Home/Services";
+import UseCases from "@components/Pages/Home/UseCases";
+import WhyIOT from "@components/Pages/Home/WhyIOT";
+
+// import News from "@/components/Pages/Home/News";
 
 const Home = () => {
   return (
@@ -12,6 +14,7 @@ const Home = () => {
       <Services />
       <WhyIOT />
       <UseCases />
+      {/* <News /> */}
     </>
   );
 };

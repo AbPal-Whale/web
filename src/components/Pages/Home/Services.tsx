@@ -11,14 +11,7 @@ const Services = () => {
           <div className="w-1/2">
             <Accordion items={dictionary.services.items} />
           </div>
-          <div className="w-1/2 flex justify-center items-center bg-[#C4DEFD]">
-            {/* <Image
-            src="/graphics/iot.png"
-            alt="REPLACE ME"
-            width={2000}
-            height={2000}
-          /> */}
-          </div>
+          <div className="w-1/2 flex justify-center items-center bg-[#C4DEFD]"></div>
         </div>
       </div>
     </section>

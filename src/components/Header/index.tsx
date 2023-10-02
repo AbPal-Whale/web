@@ -10,7 +10,6 @@ const Header = () => {
     { name: dictionary.about, href: "/about" },
     { name: dictionary.products, href: "/products" },
     { name: dictionary.services, href: "/services" },
-    { name: dictionary.solutions, href: "/solutions" },
   ];
 
   return (

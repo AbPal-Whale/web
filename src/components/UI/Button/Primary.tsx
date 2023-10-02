@@ -11,7 +11,7 @@ const Primary = ({ className = "", children, ...props }: Props) => {
     <button
       {...props}
       className={cx(
-        "cursor-pointer group relative flex gap-1.5 px-8 py-4 bg-cornflower-blue-500",
+        "cursor-pointer group relative flex gap-1.5 px-8 py-4 bg-cornflower-blue-500 disabled:bg-slate-500",
         "text-white rounded-lg hover:bg-opacity-90 transition font-semibold shadow-md",
         typography.button,
         className

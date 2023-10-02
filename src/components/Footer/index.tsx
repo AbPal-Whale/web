@@ -10,6 +10,7 @@ const Footer = () => {
 
   return (
     <footer className="w-full">
+      <div className="w-full border border-b" />
       <div
         className={cx(
           "w-full max-w-[1480px] m-auto",

@@ -1,10 +1,16 @@
 {
   "description": "Estamos a tus órdenes.",
-  "contactDetails": {
-    "form": "Formulario de contacto",
-    "address": "Dirección",
-    "phone": "teléfono",
-    "email": "correo electrónico",
-    "linkedin": "perfil de linkedin"
+  "letsCollaborate": "Colabora con nosotros",
+  "followUs": "Síguenos",
+  "visitanos": "Visítanos",
+  "phone": "(+52) 333 662 2171",
+  "address": "Monte Everest #210 Col. Lomas de Chapultepec Miguel Hidalgo, C.P. 11000 Ciudad de México, México",
+  "form": {
+    "title": "Contáctanos",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar"
   }
 }
