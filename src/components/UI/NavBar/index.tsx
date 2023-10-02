@@ -1,7 +1,7 @@
 "use client";
 
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
-import classNames from "classnames";
+import cx from "classnames";
 import { usePathname } from "next/navigation";
 
 interface NavBarItem {
@@ -24,9 +24,9 @@ const NavBar = ({ items }: Props) => {
             <NavigationMenu.Link
               key={"nav-item-" + index}
               href={item.href}
-              className={classNames(
+              className={cx(
                 pathname === item.href ? "text-curious-blue-500" : "text-black",
-                "px-8 py-3 text-base font-normal leading-6 hover:text-curious-blue-500",
+                "px-8 py-3 text-base font-normal leading-6 hover:text-curious-blue-500"
               )}
             >
               {item.name}

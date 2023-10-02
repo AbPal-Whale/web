@@ -1,7 +1,6 @@
-import classNames from "classnames";
+import Button from "@components/UI/Button";
+import cx from "classnames";
 import Image from "next/image";
-
-import Button from "../UI/Button";
 
 const IOT = () => {
   const dictionary = {
@@ -17,7 +16,7 @@ const IOT = () => {
   };
 
   return (
-    <section className="w-full max-w-[1440px] m-auto flex justify-center gap-12 pt-32 pb-32">
+    <section className="w-full max-w-[1480px] m-auto flex justify-center gap-12 pt-32 pb-32">
       <div className="w-1/2">
         <h2 className="text-3xl font-semibold leading-[50px] pb-8">
           {dictionary.title[0]}
@@ -28,7 +27,7 @@ const IOT = () => {
           {dictionary.label.map((text, index) => (
             <span
               key={"iot-text-" + index}
-              className={classNames(
+              className={cx(
                 "text-base leading-7",
                 index % 2 !== 0 ? "font-bold" : "font-normal"
               )}
@@ -38,9 +37,7 @@ const IOT = () => {
           ))}
         </p>
         <div className="flex gap-4 pt-16">
-          <Button variant="secondary" className="min-w-[200px]">
-            {dictionary.more}
-          </Button>
+          <Button>{dictionary.more}</Button>
         </div>
       </div>
       <div className="w-1/2 flex justify-center items-center">

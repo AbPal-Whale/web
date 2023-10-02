@@ -1,0 +1,36 @@
+{
+  "redesIoT": {
+    "title": "Redes IoT",
+    "services": [
+      "Implementación de dispositivos IoT de acuerdo a las necesidades de nuestros clientes.",
+      "Selección e implementación de protocolos de comunicación.",
+      "Diseño de la arquitectura de red.",
+      "Selección, implementación y configuración de dispositivos IoT.",
+      "Despliegue de redes privadas bajo demanda.",
+      "Conexión de dispositivos a un servidor centralizado.",
+      "Plataforma de monitoreo y control de dispositivos IoT."
+    ]
+  },
+  "renovacionIoT": {
+    "title": "Renovación IoT",
+    "description": "Conexión inalámbrica de la infraestructura que no cuenta con ningún tipo de inteligencia o conectividad inalámbrica.",
+    "services": [
+      "Realizamos una integración del dispositivo tradicional con nuestro módulo Wi-SUN.",
+      "Luminarias públicas sin conectividad inalámbrica.",
+      "Medidores de agua sin conectividad inalámbrica.",
+      "Medidores de consumo eléctrico digitales sin conectividad inalámbrica.",
+      "Cualquier dispositivo digital que no cuente con conectividad inalámbrica."
+    ]
+  },
+  "solucionesMedida": {
+    "title": "Soluciones a la medida.",
+    "description": "Servicios de diseño electrónico a la medida.",
+    "services": [
+      "Nuestro equipo de ingeniería diseña dispositivos de grado industrial a la medida para satisfacer tus necesidades.",
+      "Diseño de módulos electrónicos para comunicaciones inalámbricas.",
+      "Desarrollo de software para IoT.",
+      "Diseño mecánico para enclosures con protección para exteriores."
+    ]
+  },
+  "contact": "Contáctanos"
+}

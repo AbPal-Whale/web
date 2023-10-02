@@ -1,0 +1,15 @@
+{
+  "copyright": "Copyright © {{CURRENT_YEAR}} WhaleComm. All rights reserved.",
+  "logoAlt": "Whalecomm logo",
+  "address": [
+    "Monte Everest #210",
+    "Col. Lomas de Chapultepec",
+    "Miguel Hidalgo, C.P. 11000",
+    "Ciudad de México, México"
+  ],
+  "phone": "(+52) 333 662 2171",
+  "email": "contacto@whalecomm.io",
+  "terms": "Términos y condiciones",
+  "privacy": "Aviso de privacidad",
+  "contact": "Contáctanos"
+}

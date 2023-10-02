@@ -1,7 +1,8 @@
-import classNames from "classnames";
+import Primary from "./Primary";
+import Text from "./Text";
 
 export interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary";
+  variant?: "primary" | "text";
   className?: string;
   children: React.ReactNode;
 }
@@ -12,26 +13,20 @@ const Button = ({
   children,
   ...props
 }: Props) => {
-  return (
-    <button
-      {...props}
-      className={classNames(
-        variant === "primary"
-          ? "bg-curious-blue-500 text-white hover:bg-curious-blue-600"
-          : "bg-white text-curious-blue-500 border border-curious-blue-500",
-        "hover:shadow-md",
-        "px-6 py-3 rounded-md shadow-sm",
-        "transition-all",
-        "focus:ring-2",
-        "focus:ring-offset-2",
-        "focus:ring-offset-white",
-        "focus:ring-curious-blue-700",
-        className
-      )}
-    >
-      {children}
-    </button>
-  );
+  if (variant === "primary") {
+    return (
+      <Primary {...props} className={className}>
+        {children}
+      </Primary>
+    );
+  }
+  if (variant === "text") {
+    return (
+      <Text {...props} className={className}>
+        {children}
+      </Text>
+    );
+  }
 };
 
 export default Button;

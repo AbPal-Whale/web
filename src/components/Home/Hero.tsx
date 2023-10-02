@@ -1,44 +1,37 @@
-import Link from "next/link";
+import Button from "@components/UI/Button";
 import Image from "next/image";
-
-import Button from "../UI/Button";
+import Link from "next/link";
+import dictionary from "@public/translate/home/es.json";
+import typography from "@components/Typography";
+import SectionWrapper from "@components/SectionWrapper";
 
 const Hero = () => {
-  const dictionary = {
-    label: ["Soluciones para ", "el internet de las cosas ", "a la medida."],
-    contact: "Contáctanos",
-    more: "Ver más",
-  };
-
   // TODO: Update alt text
   return (
-    <section className="bg-curious-blue-500 bg-opacity-10">
-      <div className="w-full max-w-[1440px] m-auto flex justify-center gap-12 pt-32 pb-40">
-        <div className="w-1/2">
-          <h1 className="text-5xl leading-[60px] font-semibold max-w-lg break-words">
-            {dictionary.label[0]}
-            <span className="text-curious-blue-500">{dictionary.label[1]}</span>
-            {dictionary.label[2]}
-          </h1>
-          <div className="flex gap-4 pt-16">
+    <SectionWrapper background="bg-astronaut-500">
+      <div className="w-full flex gap-12">
+        <div className="w-1/2 flex flex-col gap-14 justify-center">
+          <div className="flex flex-col gap-6 text-white">
+            <h1 className={typography.H1}>{dictionary.banner.title}</h1>
+            <p className={typography.H6}>{dictionary.banner.description}</p>
+            <p className={typography.H6}>{dictionary.banner.details}</p>
+          </div>
+          <div className="flex gap-4 ">
             <Link href="/contact">
-              <Button className="min-w-[200px]">{dictionary.contact}</Button>
+              <Button>{dictionary.banner.contact}</Button>
             </Link>
-            <Button variant="secondary" className="min-w-[200px]">
-              {dictionary.more}
-            </Button>
           </div>
         </div>
-        <div className="w-1/2 flex justify-center items-center">
-          <Image
+        <div className="w-1/2 flex justify-center items-center bg-[#C4DEFD]">
+          {/* <Image
             src="/graphics/iot.png"
             alt="REPLACE ME"
             width={2000}
             height={2000}
-          />
+          /> */}
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 };
 

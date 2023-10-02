@@ -1,0 +1,10 @@
+{
+  "description": "Estamos a tus órdenes.",
+  "contactDetails": {
+    "form": "Formulario de contacto",
+    "address": "Dirección",
+    "phone": "teléfono",
+    "email": "correo electrónico",
+    "linkedin": "perfil de linkedin"
+  }
+}

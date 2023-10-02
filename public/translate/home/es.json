@@ -1,0 +1,160 @@
+{
+  "banner": {
+    "title": "Soluciones IoT a la medida.",
+    "description": "Conectamos la infraestructura que da vida a ciudades inteligentes, huertos de precisión y plantas de manufactura inteligentes.",
+    "details": "Diseño, fabricación e implementación de dispositivos Wi-SUN, LoRaWAN y Sigfox.",
+    "more": "Ver más",
+    "contact": "Contáctanos"
+  },
+  "video": {
+    "title": "WhaleComm & The Internet of Things (IoT)"
+  },
+  "protocols": {
+    "title": "Nuestros protocolos",
+    "items": [
+      {
+        "path": "/images/logos/wisun.png",
+        "alt": "Logo de Wi-SUN",
+        "description": "Protocolo idóneo para ciudades inteligentes. Ampliamente utilizado para la conexión de medidores de agua, luz, gas y luminarias públicas. Como miembros de Wi-SUN Alliance, diseñamos dispositivos que garantizan cumplir con el estándar.",
+        "link": "Ver productos Wi-SUN."
+      },
+      {
+        "path": "/images/logos/lorawan.png",
+        "alt": "Logo de LoRaWAN",
+        "description": "Uno de los protocolos más utilizados a nivel mundial y con más oferta de aplicaciones en el mercado. Muy útil para la conectividad de sensores en huertos de precisión y edificios inteligentes.",
+        "link": "Ver productos LoRaWAN."
+      },
+      {
+        "path": "/images/logos/sigfox.png",
+        "alt": "Logo de Sigfox",
+        "description": "Sigfox es un protocolo con un alcance amplio y cobertura en las principales zonas del país. Es muy útil tanto en aplicaciones urbanas como.",
+        "link": "Más información."
+      }
+    ]
+  },
+  "services": {
+    "title": "Servicios",
+    "items": [
+      {
+        "title": "Desarrollo de sistemas embebeidos para IoT",
+        "content": "Somos especialistas en el diseño de hardware y software para comunicaciones inalámbricas.",
+        "list": ["Sensores", "Actudadores", "Gateways", "Router"]
+      },
+      {
+        "title": "Despliegue de redes IoT bajo demanda",
+        "content": "Contamos con herramientas de modelado y simulación de radiofrecuencia para:",
+        "list": [
+          "Seleccionar el protocolo idóneo.",
+          "Dimensionar las necesidades técnicas.",
+          "Implementar en campo optimizando los recursos.",
+          "Operar y dar mantenimiento a la red de comunicaciones."
+        ]
+      },
+      {
+        "title": "Plataforma de monitoreo y control",
+        "content": "Brindamos una solución integral de monitoreo y control de tus dispositivos  desde una plataforma centralizada.",
+        "list": [
+          "Generación de reportes.",
+          "Construcción de dashboards.",
+          "Control de dispositivos.",
+          "Automatización de la operación."
+        ]
+      }
+    ]
+  },
+  "whyUseIoT": {
+    "title": "¿Por qué utilizar redes IoT?",
+    "description": "Las LPWAN (Low Power Wide Area Network) son redes de largo alcance y bajo consumo energético utilizadas para la comunicación inalámbrica en IoT.",
+    "benefits": [
+      {
+        "title": "Bajo consumo energético.",
+        "description": "Los dispositivos pueden operar por años con una sola carga de batería."
+      },
+      {
+        "title": "Específicamente diseñados para banda angosta.",
+        "description": "La infraestructura está pensada para transmitir pocos datos a un precio bajo."
+      },
+      {
+        "title": "Largo alcance.",
+        "description": "Nuestros equipos de radio pueden comunicarse a más de 20 kilómetros a la redonda en campo abierto."
+      }
+    ]
+  },
+  "useCases": {
+    "title": "Casos de uso",
+    "items": [
+      {
+        "title": "Ciudades inteligentes",
+        "image": {
+          "path": "/images/electricity.jpg",
+          "alt": "Electricidad"
+        },
+        "description": [
+          "Conexión inalámbrica de medidores de consumo eléctrico.",
+          "Control y monitoreo de luminarias públicas.",
+          "Control y monitoreo de semáforos y parquímetros.",
+          "Medición de calidad del aire y CO2.",
+          "Monitorear el nivel de los depósitos de basura.",
+          "Prevención de robo de tapas de alcantarillado.",
+          "Smart parking - disponibilidad y ubicación de lugares de estacionamiento.",
+          "Conteo de personas.",
+          "Botones de pánico o botones multipropósito."
+        ]
+      },
+      {
+        "title": "Soluciones de agua",
+        "image": {
+          "path": "/images/water.jpeg",
+          "alt": "Agua potable"
+        },
+        "description": [
+          "Conexión inalámbrica de medidores de agua.",
+          "Automatización e integración con plataformas de recaudación.",
+          "Detección de fugas.",
+          "Monitoreo de calidad del agua en tiempo real.",
+          "Monitoreo de niveles en pozos y cuencas.",
+          "Monitoreo de flujos y caudales en puntos estratégicos.",
+          "Monitoreo de presión en tiempo real.",
+          "Control remoto de válvulas de paso."
+        ]
+      },
+      {
+        "title": "Agricultura de precisión",
+        "image": {
+          "path": "/images/farmer.jpg",
+          "alt": "Agronomia"
+        },
+        "description": [
+          "Sensores de humedad a distintas profundidades del suelo.",
+          "Control y automatización de los sistemas de irrigación.",
+          "Medición de nitrógeno, fósforo y potasio en el subsuelo.",
+          "Medición del pH.",
+          "Estaciones de temperatura ambiental y relativa."
+        ]
+      },
+      {
+        "title": "Manufactura y logística",
+        "image": {
+          "path": "/images/water.jpeg",
+          "alt": "Agua potable"
+        },
+        "description": [
+          "Control de accesos",
+          "Conteo de personas",
+          "Seguimiento RFID",
+          "Tracking de ubicación."
+        ]
+      }
+    ]
+  },
+  "newsCarousel": {
+    "title": "Notas de interés",
+    "links": [
+      "https://www.iotforall.com/lorawan-most-common-applications-and-use-cases",
+      "https://www.globenewswire.com/en/news-release/2015/11/24/789930/34640/es/Wi-SUN-Alliance-ampl%C3%ADa-la-compatibilidad-para-la-infraestructura-inteligente-en-Am%C3%A9rica-Latina.html",
+      "https://resources.lora-alliance.org/smart-cities/smart-cities-infographic-2022",
+      "https://wi-sun.org/blog/economic-5g/",
+      "https://wi-sun.org/wp-content/uploads/WiSUN-Alliance-Comparing-IoT-Networks-2019-Nov-A4.pdf"
+    ]
+  }
+}

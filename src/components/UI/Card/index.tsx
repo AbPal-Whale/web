@@ -1,4 +1,4 @@
-import classnames from "classnames";
+import cx from "classnames";
 
 interface Props {
   children: React.ReactNode;
@@ -7,9 +7,7 @@ interface Props {
 const Card = ({ children }: Props) => {
   return (
     <div
-      className={classnames(
-        "rounded-xl shadow-md hover:shadow-2xl border bg-white"
-      )}
+      className={cx("rounded-xl shadow-md hover:shadow-2xl border bg-white")}
     >
       {children}
     </div>
