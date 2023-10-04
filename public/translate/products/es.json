@@ -1,23 +1,29 @@
 {
+  "title": "Nuestros productos",
   "description": "Nuestro equipo de ingeniería diseña los módulos electrónicos, de software y mecánicos necesarios para dar vida a nuestras soluciones.",
   "products": [
     {
+      "image": "/images/products/0.jpg",
       "name": "Tarjeta de escalamiento",
       "description": "Módulo inteligente para medidores de consumo eléctrico. Cumple con la norma GWH-0079 de CFE. Permite la lectura remota en tiempo real, así como el cambio en los parámetros de configuración del medidor. Comunicación inalámbrica vía Wi-SUN."
     },
     {
+      "image": "/images/products/1.jpg",
       "name": "Adaptador para medidor de agua",
       "description": "Adaptador para cualquier marca y modelo de medidor de agua. Permite la lectura en tiempo real y la personalización de parámetros de lectura de manera remota. Autonomía energética para +5 años."
     },
     {
+      "image": "/images/products/2.jpg",
       "name": "Nodo final Wi-SUN personalizable",
       "description": "Módulo de comunicación inalámbrica Wi-SUN con interfaz serial que permite conectar y dar inteligencia a cualquier dispositivo que actualmente se encuentre en buenas condiciones pero no cuente con comunicación inalámbrica. Ideal para luminarias públicas, semáforos, parquímetros, botones multipropósito, control de accesos y más."
     },
     {
+      "image": "/images/products/3.jpg",
       "name": "Border Router Wi-SUN",
       "description": "Nuestro border router concentra la información de los nodos finales en una red y se encarga de subir la información a un servidor centralizado."
     },
     {
+      "image": "/images/products/4.jpg",
       "name": "Gateway LoRaWAN",
       "description": "El gateway LoRaWAN VM-B tiene la finalidad de conectar nodos finales LoRa e integrarlos a Internet para poder monitorearlos y controlarlos de manera remota. Basado en el integrado de SX1303 de Semtech, este modelo garantiza cumplir con los más altos estándares de conectividad en el mercado al alcanzar distancias inalámbricas de hasta 15 kilómetros a la redonda."
     }

@@ -6,6 +6,7 @@ const typography = {
   H5: "text-2xl font-semibold leading-9",
   H6: "text-lg font-normal leading-[30px]",
   body: "text-base font-normal leading-5",
+  bodySmall: "text-sm font-normal leading-5",
   button: "text-lg font-medium leading-6",
 };
 
@@ -28,6 +29,8 @@ const _ = () => {
       <div className="text-lg font-normal leading-[30px]" />
       {/* Body */}
       <div className="text-base font-normal leading-5" />
+      {/* Body Small */}
+      <div className="text-sm font-normal leading-5" />
       {/* Button */}
       <div className="text-lg font-medium leading-6" />
     </div>

@@ -5,7 +5,6 @@ import typography from "@components/Typography";
 import SectionWrapper from "@components/SectionWrapper";
 
 const Hero = () => {
-  // TODO: Update alt text
   return (
     <SectionWrapper background="bg-astronaut-500">
       <div className="w-full flex gap-12">

@@ -1,4 +1,6 @@
 {
+  "title": "Nuestros servicios",
+  "description": "Especialistas en soluciones IoT, transformamos infraestructura tradicional y diseñamos soluciones electrónicas a la medida. Contáctanos para innovar juntos.",
   "redesIoT": {
     "title": "Redes IoT",
     "services": [
@@ -23,7 +25,7 @@
     ]
   },
   "solucionesMedida": {
-    "title": "Soluciones a la medida.",
+    "title": "Soluciones a la medida",
     "description": "Servicios de diseño electrónico a la medida.",
     "services": [
       "Nuestro equipo de ingeniería diseña dispositivos de grado industrial a la medida para satisfacer tus necesidades.",

@@ -1,4 +1,5 @@
 import Hero from "@components/Pages/Home/Hero";
+import Video from "@components/Pages/Home/Video";
 import Protocols from "@components/Pages/Home/Protocols";
 import Services from "@components/Pages/Home/Services";
 import UseCases from "@components/Pages/Home/UseCases";
@@ -10,6 +11,7 @@ const Home = () => {
   return (
     <>
       <Hero />
+      <Video />
       <Protocols />
       <Services />
       <WhyIOT />
