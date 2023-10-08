@@ -1,11 +1,10 @@
-import LinkedinIcon from "@components/Icons/LinkedIn";
-import WhatsAppIcon from "@components/Icons/WhatsApp";
+import Socials from "@/components/Socials";
 import dictionary from "@public/translate/footer/es.json";
 import cx from "classnames";
 import Image from "next/image";
 import Link from "next/link";
 
-const Footer = () => {
+export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
@@ -13,7 +12,7 @@ const Footer = () => {
       <div className="w-full border border-b" />
       <div
         className={cx(
-          "w-full max-w-[1480px] m-auto",
+          "w-full max-w-[1480px] m-auto px-8",
           "flex flex-col justify-between items-center",
           "border-b bg-white"
         )}
@@ -54,20 +53,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="h-full flex justify-end">
-            <div className="flex gap-4">
-              <Link
-                href="/"
-                className="p-3 border rounded-full shadow-md hover:shadow-lg"
-              >
-                <WhatsAppIcon width={16} height={16} />
-              </Link>
-              <Link
-                href="/"
-                className="p-3 border rounded-full shadow-md hover:shadow-lg"
-              >
-                <LinkedinIcon width={16} height={16} />
-              </Link>
-            </div>
+            <Socials />
           </div>
         </div>
       </div>

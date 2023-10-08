@@ -1,11 +1,12 @@
-import Hero from "@components/Pages/Home/Hero";
-import Video from "@components/Pages/Home/Video";
-import Protocols from "@components/Pages/Home/Protocols";
-import Services from "@components/Pages/Home/Services";
-import UseCases from "@components/Pages/Home/UseCases";
-import WhyIOT from "@components/Pages/Home/WhyIOT";
-
-// import News from "@/components/Pages/Home/News";
+import {
+  Hero,
+  Protocols,
+  Services,
+  UseCases,
+  Video,
+  WhyIOT,
+  News,
+} from "@components/Pages/Home";
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
       <Services />
       <WhyIOT />
       <UseCases />
-      {/* <News /> */}
+      <News />
     </>
   );
 };

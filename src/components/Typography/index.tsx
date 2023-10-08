@@ -3,7 +3,7 @@ const typography = {
   H2: "text-7xl font-bold",
   H3: "text-5xl font-semibold leading-10",
   H4: "text-3xl font-semibold leading-10",
-  H5: "text-2xl font-semibold leading-9",
+  H5: "text-2xl font-normal leading-9",
   H6: "text-lg font-normal leading-[30px]",
   body: "text-base font-normal leading-5",
   bodySmall: "text-sm font-normal leading-5",

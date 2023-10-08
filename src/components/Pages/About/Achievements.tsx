@@ -2,7 +2,7 @@ import SectionWrapper from "@/components/SectionWrapper";
 import typography from "@/components/Typography";
 import dictionary from "@public/translate/about/es.json";
 
-const Achievements = () => {
+export const Achievements = () => {
   return (
     <SectionWrapper background="bg-astronaut-500" padding="py-28">
       <div className="flex justify-evenly text-white text-center">

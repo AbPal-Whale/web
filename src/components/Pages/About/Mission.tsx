@@ -2,7 +2,7 @@ import SectionWrapper from "@/components/SectionWrapper";
 import typography from "@/components/Typography";
 import dictionary from "@public/translate/about/es.json";
 
-const Mission = () => {
+export const Mission = () => {
   return (
     <SectionWrapper padding="py-20">
       <div className="w-2/3 h-full flex flex-col justify-center gap-5">

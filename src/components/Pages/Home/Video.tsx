@@ -1,8 +1,8 @@
-import dictionary from "@public/translate/home/es.json";
-import Title from "@components/Typography/SectionTitle";
 import SectionWrapper from "@/components/SectionWrapper";
+import Title from "@components/Typography/SectionTitle";
+import dictionary from "@public/translate/home/es.json";
 
-const Services = () => {
+export const Video = () => {
   return (
     <SectionWrapper>
       <div className="flex flex-col gap-16">
@@ -19,4 +19,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Video;

@@ -2,7 +2,7 @@ import SectionWrapper from "@/components/SectionWrapper";
 import typography from "@/components/Typography";
 import dictionary from "@public/translate/about/es.json";
 
-const Description = () => {
+export const Description = () => {
   return (
     <SectionWrapper padding="py-20">
       <div className="grid grid-cols-2 gap-12">

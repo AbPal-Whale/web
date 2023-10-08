@@ -1,10 +1,10 @@
-import Button from "@components/UI/Button";
-import Link from "next/link";
-import dictionary from "@public/translate/home/es.json";
-import typography from "@components/Typography";
 import SectionWrapper from "@components/SectionWrapper";
+import typography from "@components/Typography";
+import Button from "@components/UI/Button";
+import dictionary from "@public/translate/home/es.json";
+import Link from "next/link";
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <SectionWrapper background="bg-astronaut-500">
       <div className="w-full flex gap-12">

@@ -2,7 +2,7 @@ import Button from "@components/UI/Button";
 import cx from "classnames";
 import Image from "next/image";
 
-const IOT = () => {
+export const IOT = () => {
   const dictionary = {
     title: ["¿Qué es el ", "Internet de las Cosas", "?"],
     label: [

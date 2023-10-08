@@ -4,7 +4,7 @@ import Title from "@components/Typography/SectionTitle";
 import dictionary from "@public/translate/home/es.json";
 import cx from "classnames";
 
-const WhyIOT = () => {
+export const WhyIOT = () => {
   return (
     <SectionWrapper>
       <div className="flex flex-col gap-6">

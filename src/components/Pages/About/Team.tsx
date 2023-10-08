@@ -4,7 +4,7 @@ import Title from "@/components/Typography/SectionTitle";
 import dictionary from "@public/translate/about/es.json";
 import cx from "classnames";
 
-const Team = () => {
+export const Team = () => {
   const teamMembers = [
     {
       name: "Abraham",

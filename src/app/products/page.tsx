@@ -1,8 +1,8 @@
 import SectionWrapper from "@/components/SectionWrapper";
 import Title from "@/components/Typography/SectionTitle";
 import Animated from "@/components/UI/Card/Animated";
-import dictionary from "@public/translate/products/es.json";
 import typography from "@components/Typography";
+import dictionary from "@public/translate/products/es.json";
 import cx from "classnames";
 
 const Products = () => {

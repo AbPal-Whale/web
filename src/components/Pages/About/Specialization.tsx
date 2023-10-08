@@ -5,7 +5,7 @@ import Button from "@/components/UI/Button";
 import dictionary from "@public/translate/about/es.json";
 import Link from "next/link";
 
-const Specialization = () => {
+export const Specialization = () => {
   return (
     <SectionWrapper>
       <div className="w-full flex">

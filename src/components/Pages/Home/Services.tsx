@@ -1,9 +1,9 @@
+import SectionWrapper from "@/components/SectionWrapper";
+import Title from "@components/Typography/SectionTitle";
 import Accordion from "@components/UI/Accordion";
 import dictionary from "@public/translate/home/es.json";
-import Title from "@components/Typography/SectionTitle";
-import SectionWrapper from "@/components/SectionWrapper";
 
-const Services = () => {
+export const Services = () => {
   return (
     <SectionWrapper>
       <div className="flex flex-col gap-16">

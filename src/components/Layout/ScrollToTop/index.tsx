@@ -1,12 +1,11 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { ChevronUpIcon } from "@radix-ui/react-icons";
+import { useEffect, useState } from "react";
 
-const ScrollToTopButton = () => {
+export const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Show button when page is scrolled down 100vh
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.pageYOffset > window.innerHeight) {

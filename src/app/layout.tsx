@@ -1,8 +1,8 @@
-import Header from "@/components/Header";
 import "./globals.css";
+
+import { Footer, Header, ScrollToTopButton } from "@components/Layout";
+
 import type { Metadata } from "next";
-import Footer from "@/components/Footer";
-import ScrollToTopButton from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
   title: "Whalecomm",

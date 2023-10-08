@@ -6,9 +6,9 @@ import dictionary from "@public/translate/header/es.json";
 import cx from "classnames";
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
-const Header = () => {
+export const Header = () => {
   const [showHeader, setShowHeader] = useState(true);
   const lastScrollY = useRef(0);
 
@@ -48,7 +48,7 @@ const Header = () => {
     >
       <div
         className={cx(
-          "w-full max-w-[1480px] m-auto",
+          "w-full max-w-[1480px] m-auto px-8",
           "flex justify-between items-center py-4",
           showHeader ? "transform translate-y-0" : "transform -translate-y-full"
         )}
@@ -57,8 +57,8 @@ const Header = () => {
           <Image
             src="/images/logos/whalecommBlack.png"
             alt={dictionary.logoAlt}
-            width={80}
-            height={80}
+            width={120}
+            height={120}
           />
         </Link>
         <div className="flex gap-8">

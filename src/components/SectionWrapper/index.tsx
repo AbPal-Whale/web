@@ -1,4 +1,5 @@
 import cx from "classnames";
+
 interface Props {
   children: React.ReactNode;
   background?: string;
@@ -16,7 +17,7 @@ const SectionWrapper = ({
     <section className={background}>
       <div
         className={cx(
-          "w-full max-w-[1480px] m-auto",
+          "w-full max-w-[1480px] m-auto px-8",
           padding ? padding : "py-36",
           className
         )}

@@ -1,11 +1,7 @@
-import Button from "@components/UI/Button";
-import Link from "next/link";
-import dictionary from "@public/translate/services/es.json";
-import typography from "@components/Typography";
-import SectionWrapper from "@components/SectionWrapper";
 import ServicesCard from "@/components/ServicesCard";
-import Title from "@/components/Typography/SectionTitle";
-import cx from "classnames";
+import SectionWrapper from "@components/SectionWrapper";
+import typography from "@components/Typography";
+import dictionary from "@public/translate/services/es.json";
 
 const Services = () => {
   return (

@@ -6,7 +6,7 @@ import CustomHoverCard from "@components/UI/HoverCard";
 import dictionary from "@public/translate/home/es.json";
 import Image from "next/image";
 
-const Protocols = () => {
+export const Protocols = () => {
   return (
     <SectionWrapper>
       <div className="flex flex-col gap-24">
