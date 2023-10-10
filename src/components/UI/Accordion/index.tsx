@@ -31,7 +31,7 @@ const AccordionDemo = ({ items }: Props) => (
           "focus-within:shadow-mauve12 mt-px overflow-hidden first:mt-0 first:rounded-t last:rounded-b focus-within:relative focus-within:z-10 shadow-[0_2px_10px] shadow-black/5",
           "data-[state=open]:border border data-[state=open]:border-curious-blue-500",
           "ease-in-out transition-border duration-300",
-          "rounded-lg p-8 shadow-md"
+          "rounded-lg md:p-8 p-4 shadow-md"
         )}
       >
         <Accordion.Header className="flex">
@@ -44,7 +44,7 @@ const AccordionDemo = ({ items }: Props) => (
             {item.title}
             <div
               className={cx(
-                "ease-in-out transition-bg duration-300 text-curious-blue-500 rounded-full p-4",
+                "ease-in-out transition-bg duration-300 text-curious-blue-500 rounded-full md:p-4 p-1",
                 "group-data-[state=open]:bg-curious-blue-500 group-data-[state=open]:border-none border border-curious-blue-500",
                 "group-data-[state=open]:text-white"
               )}
@@ -58,7 +58,7 @@ const AccordionDemo = ({ items }: Props) => (
         </Accordion.Header>
         <Accordion.Content
           className={cx(
-            "data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden"
+            "data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden pt-4"
           )}
         >
           <p>{item.content}</p>

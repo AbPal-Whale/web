@@ -12,11 +12,11 @@ const Map = () => {
   return (
     <SectionWrapper padding="pb-14">
       <div className="flex flex-col gap-14">
-        <div className="flex">
-          <div className="w-1/2 flex justify-start items-center">
+        <div className="flex md:flex-row flex-col md:pt-0 pt-10">
+          <div className="w-full md:w-1/2 flex md:justify-start justify-center items-center md:text-start">
             <h3 className={typography.H3}>{dictionary.letsCollaborate}</h3>
           </div>
-          <div className="w-1/2">
+          <div className="w-full md:w-1/2">
             <Image
               src="/images/map.png"
               alt="world map in dots"
@@ -25,22 +25,22 @@ const Map = () => {
             />
           </div>
         </div>
-        <div className="flex justify-between">
-          <div className="w-1/4 flex flex-col gap-5 justify-center items-start">
+        <div className="hidden md:flex justify-between">
+          <div className="lg:w-1/4 w-1/5 px-2 flex flex-col gap-5 justify-center items-start">
             <p className={typography.body}>{dictionary.followUs}</p>
             <Socials />
           </div>
           <div>
             <LineVertical />
           </div>
-          <div className="w-1/4 flex gap-6 justify-center items-center">
+          <div className="lg:w-1/4 w-2/5 px-2 flex gap-6 justify-center items-center">
             <PhoneIcon width={30} height={30} />
             <p className={typography.body}>{dictionary.phone}</p>
           </div>
           <div>
             <LineVertical />
           </div>
-          <div className="w-1/4 flex gap-6 justify-center items-center break-words">
+          <div className="lg:w-1/4 w-2/5 px-2 flex gap-6 justify-center items-center break-words">
             <PinIcon width={60} height={60} />
             <p className={typography.body}>{dictionary.address}</p>
           </div>

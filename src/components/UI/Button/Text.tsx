@@ -12,8 +12,8 @@ const Text = ({ className = "", children, ...props }: Props) => {
       {...props}
       className={cx(
         "w-fit cursor-pointer group relative flex gap-1.5 px-6 py-2 text-[#212529]",
-        "rounded-lg border-white hover:border-cornflower-blue-400 hover:bg-opacity-90",
-        "hover:bg-cornflower-blue-400 hover:text-white transition font-semibold underline hover:no-underline",
+        "rounded-lg border border-white hover:border-cornflower-blue-400 hover:bg-opacity-90",
+        "transition font-semibold underline hover:no-underline",
         className,
         typography.button
       )}

@@ -1,38 +1,13 @@
 const typography = {
-  H1: "text-[64px] font-bold",
-  H2: "text-7xl font-bold",
-  H3: "text-5xl font-semibold leading-10",
-  H4: "text-3xl font-semibold leading-10",
-  H5: "text-2xl font-normal leading-9",
-  H6: "text-lg font-normal leading-[30px]",
-  body: "text-base font-normal leading-5",
-  bodySmall: "text-sm font-normal leading-5",
-  button: "text-lg font-medium leading-6",
+  H1: "md:text-9xl text-7xl md:font-bold font-semibold",
+  H2: "md:text-7xl text-5xl md:font-bold font-semibold",
+  H3: "md:text-5xl text-3xl md:font-semibold font-medium md:leading-10 leading-9",
+  H4: "md:text-3xl text-2xl md:font-semibold font-medium md:leading-10 leading-9",
+  H5: "md:text-2xl text-lg font-normal md:leading-9 leading-8",
+  H6: "md:text-lg text-base font-normal",
+  body: "text-base text-sm font-normal",
+  bodySmall: "md:text-sm text-xs md:font-normal font-light",
+  button: "md:text-lg text-base md:font-medium font-normal",
 };
 
 export default typography;
-
-const _ = () => {
-  return (
-    <div>
-      {/* H1 */}
-      <div className="text-[64px] font-bold" />
-      {/* H2 */}
-      <div className="text-7xl font-bold" />
-      {/* H3 */}
-      <div className="text-5xl font-semibold leading-10" />
-      {/* H4 */}
-      <div className="text-3xl font-semibold leading-10" />
-      {/* H5 */}
-      <div className="text-2xl font-semibold leading-9" />
-      {/* H6 */}
-      <div className="text-lg font-normal leading-[30px]" />
-      {/* Body */}
-      <div className="text-base font-normal leading-5" />
-      {/* Body Small */}
-      <div className="text-sm font-normal leading-5" />
-      {/* Button */}
-      <div className="text-lg font-medium leading-6" />
-    </div>
-  );
-};

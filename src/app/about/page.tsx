@@ -1,6 +1,7 @@
 import {
   Achievements,
   Description,
+  DescriptionMobile,
   Mission,
   Specialization,
   // Team
@@ -10,6 +11,7 @@ const About = () => {
   return (
     <>
       <Description />
+      <DescriptionMobile />
       <Mission />
       <Achievements />
       <Specialization />

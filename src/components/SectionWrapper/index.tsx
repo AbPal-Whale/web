@@ -17,8 +17,8 @@ const SectionWrapper = ({
     <section className={background}>
       <div
         className={cx(
-          "w-full max-w-[1480px] m-auto px-8",
-          padding ? padding : "py-36",
+          "w-full max-w-[1480px] m-auto md:px-8 px-2 overflow-hidden",
+          padding ? padding : "lg:py-36 md:py-28 py-20",
           className
         )}
       >

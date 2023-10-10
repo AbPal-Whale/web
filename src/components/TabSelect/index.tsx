@@ -26,7 +26,7 @@ const TabsCustom = ({ tabs }: Props) => (
           key={"tab-" + index}
           value={"tab-" + index}
           className={cx(
-            typography.H5,
+            typography.H6,
             "bg-white px-5 py-3 flex-1 flex items-center justify-center select-none first:rounded-tl-md last:rounded-tr-md",
             "hover:text-curious-blue-500 data-[state=active]:text-curious-blue-500 data-[state=active]:shadow-[inset_0_-1px_0_0,0_1px_0_0] data-[state=active]:shadow-current",
             " outline-none cursor-default data-[state=active]:font-semibold"
@@ -40,7 +40,7 @@ const TabsCustom = ({ tabs }: Props) => (
       <Tabs.Content key={"tab-" + index} value={"tab-" + index}>
         <div className="w-full flex gap-5 bg-white">
           <div className="w-1/2 p-5">
-            <p className={typography.H6}>
+            <p className={typography.body}>
               <ul className="list-disc pl-5">
                 {description.map((listItem, index) => (
                   <li

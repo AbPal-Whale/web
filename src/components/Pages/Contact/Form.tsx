@@ -32,8 +32,8 @@ const Form = () => {
         <h2 className={cx("text-white text-center pb-14", typography.H3)}>
           {dictionary.form.title}
         </h2>
-        <div className="flex gap-6">
-          <div className="w-1/2 flex flex-col gap-1.5">
+        <div className="flex md:flex-row flex-col gap-6">
+          <div className="w-full md:w-1/2 flex flex-col gap-1.5">
             <label
               htmlFor="name"
               className={cx("text-white", typography.button)}
@@ -50,7 +50,7 @@ const Form = () => {
               className="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-100"
             />
           </div>
-          <div className="w-1/2 flex flex-col gap-1.5">
+          <div className="w-full md:w-1/2 flex flex-col gap-1.5">
             <label
               htmlFor="phone"
               className={cx("text-white", typography.button)}

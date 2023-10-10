@@ -3,14 +3,13 @@
 import SectionWrapper from "@/components/SectionWrapper";
 import typography from "@/components/Typography";
 import Title from "@/components/Typography/SectionTitle";
-import Button from "@components/UI/Button";
+import LinkButton from "@/components/UI/Button/Link";
 import dictionary from "@public/translate/home/es.json";
 import { FileTextIcon } from "@radix-ui/react-icons";
 import cx from "classnames";
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import Link from "next/link";
 
 export const News = () => {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
@@ -52,11 +51,10 @@ export const News = () => {
                   </div>
                 </div>
                 <div className="flex justify-end">
-                  <Link href={link.url} target="_blank" className="pt-14">
-                    <Button variant="text">
-                      {dictionary.newsCarousel.more}
-                    </Button>
-                  </Link>
+                  <LinkButton
+                    url={link.url}
+                    label={dictionary.newsCarousel.more}
+                  />
                 </div>
               </div>
             ))}

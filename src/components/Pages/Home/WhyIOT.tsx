@@ -9,12 +9,14 @@ export const WhyIOT = () => {
     <SectionWrapper>
       <div className="flex flex-col gap-6">
         <Title title={dictionary.whyUseIoT.title} />
-        <div className="flex flex-col gap-24">
-          <p className={cx(typography.H6, "text-center")}>
-            {dictionary.whyUseIoT.description}
-          </p>
-          <div className="flex justify-evenly gap-5">
-            <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg p-6 shadow-lg text-white w-1/3">
+        <div className="flex flex-col gap-12">
+          <div>
+            <p className={cx(typography.H6, "text-center")}>
+              {dictionary.whyUseIoT.description}
+            </p>
+          </div>
+          <div className="flex lg:flex-row flex-col justify-evenly gap-5">
+            <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg p-6 shadow-lg text-white w-full lg:w-1/3">
               <h2 className="text-xl font-semibold mb-2">
                 {dictionary.whyUseIoT.benefits[0].title}
               </h2>
@@ -22,7 +24,7 @@ export const WhyIOT = () => {
                 {dictionary.whyUseIoT.benefits[0].description}
               </p>
             </div>
-            <div className="bg-gradient-to-r from-blue-500 to-teal-500 rounded-lg p-6 shadow-lg text-white w-1/3">
+            <div className="bg-gradient-to-r from-blue-500 to-teal-500 rounded-lg p-6 shadow-lg text-white w-full lg:w-1/3">
               <h2 className="text-xl font-semibold mb-2">
                 {dictionary.whyUseIoT.benefits[1].title}
               </h2>
@@ -30,7 +32,7 @@ export const WhyIOT = () => {
                 {dictionary.whyUseIoT.benefits[1].description}
               </p>
             </div>
-            <div className="bg-gradient-to-r from-green-500 to-lime-500 rounded-lg p-6 shadow-lg text-white w-1/3">
+            <div className="bg-gradient-to-r from-green-500 to-lime-500 rounded-lg p-6 shadow-lg text-white w-full lg:w-1/3">
               <h2 className="text-xl font-semibold mb-2">
                 {dictionary.whyUseIoT.benefits[2].title}
               </h2>

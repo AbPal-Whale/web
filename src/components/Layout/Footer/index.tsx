@@ -17,7 +17,7 @@ export const Footer = () => {
           "border-b bg-white"
         )}
       >
-        <div className="w-full flex justify-between pt-20 pb-14">
+        <div className="w-full lg:flex hidden justify-between pt-20 pb-14">
           <div className="flex justify-between items-start">
             <Image
               src="/images/logos/whalecommBlack.png"
@@ -54,6 +54,45 @@ export const Footer = () => {
           </div>
           <div className="h-full flex justify-end">
             <Socials />
+          </div>
+        </div>
+        <div className="w-full lg:hidden grid md:grid-cols-2 grid-cols-1 pt-20 pb-14 md:gap-20 gap-5">
+          <div className="flex justify-center items-start">
+            <Image
+              src="/images/logos/whalecommBlack.png"
+              alt={dictionary.logoAlt}
+              width={150}
+              height={150}
+            />
+          </div>
+          <div className="h-full flex justify-center">
+            <div>
+              <Socials />
+            </div>
+          </div>
+          <div className="text-base font-normal leading-7 text-fuscous-gray-500 break-words text-center">
+            <p>
+              {dictionary.address.map((line, index) => (
+                <span key={index}>
+                  {line}
+                  <br />
+                </span>
+              ))}
+            </p>
+            <br />
+            <p>{dictionary.phone}</p>
+            <Link href="mailto:contacto@whalecomm.io">{dictionary.email}</Link>
+          </div>
+          <div className="text-base font-normal leading-7 text-fuscous-gray-500 break-words text-center">
+            <p>
+              <Link href="/legal/terms-of-service">{dictionary.terms}</Link>
+            </p>
+            <p>
+              <Link href="/legal/privacy-policy">{dictionary.privacy}</Link>
+            </p>
+            <p>
+              <Link href="/contact">{dictionary.contact}</Link>
+            </p>
           </div>
         </div>
       </div>
