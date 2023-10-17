@@ -15,7 +15,7 @@ export const News = () => {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
 
   return (
-    <SectionWrapper>
+    <SectionWrapper appearOnScroll>
       <div className="flex flex-col gap-24 overflow-hidden">
         <Title title={dictionary.newsCarousel.title} />
         <div className="embla__viewport" ref={emblaRef}>

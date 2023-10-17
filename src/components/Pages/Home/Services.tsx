@@ -5,7 +5,7 @@ import dictionary from "@public/translate/home/es.json";
 
 export const Services = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper appearOnScroll>
       <div className="flex flex-col gap-16">
         <Title title={dictionary.services.title} />
         <div className="w-full flex lg:flex-row flex-col-reverse gap-16 shrink-0">

@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const Specialization = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper appearOnScroll>
       <div className="w-full flex md:flex-row flex-col md:gap-5 gap-10">
         <div className="w-full md:w-1/2 lg:w-2/5">
           <div className="h-full flex flex-col justify-center md:text-start text-center md:items-start items-center gap-5">

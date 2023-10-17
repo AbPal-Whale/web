@@ -5,7 +5,10 @@ import typography from "@components/Typography";
 import Button from "@components/UI/Button";
 import dictionary from "@public/translate/contact/es.json";
 import cx from "classnames";
-import { useEffect, useState } from "react";
+import Link from "next/link";
+import { useState } from "react";
+
+const API_URL = process.env.POSTMARK_FROM;
 
 const Form = () => {
   const [name, setName] = useState("");
@@ -13,17 +16,43 @@ const Form = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
+  const [sendingForm, setSendingForm] = useState(false);
+  const [formSent, setFormSent] = useState(false);
+  const [error, setError] = useState(false);
+
+  const handleSubmit = async (
+    e: React.FormEvent<HTMLFormElement>
+  ): Promise<void> => {
     e.preventDefault();
-    console.log({ name, phone, email, message });
+    setSendingForm(true);
+
+    try {
+      const response = await fetch(API_URL + "/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, phone, email, message }),
+      });
+
+      if (response.ok) {
+        setFormSent(true);
+      } else {
+        setError(true);
+      }
+    } catch (error) {
+      setError(true);
+    }
+
+    setSendingForm(false);
   };
 
-  useEffect(() => {
-    console.log(name.length, phone.length, email.length, message.length);
-  }, [name, phone, email, message]);
-
   return (
-    <SectionWrapper background="bg-astronaut-500" padding="py-14">
+    <SectionWrapper
+      background="bg-astronaut-500"
+      padding="py-14"
+      appearOnScroll
+    >
       <form
         onSubmit={handleSubmit}
         autoComplete="on"
@@ -100,10 +129,22 @@ const Form = () => {
             className="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-100"
           />
         </div>
-        <div className="w-full flex justify-end pt-5">
-          <Button disabled={!(name.length > 0 && email.length > 0)}>
-            {dictionary.form.send}
-          </Button>
+        <div className="w-full flex justify-end pt-5 transition-all">
+          {!formSent && !sendingForm && (
+            <Button disabled={!(name.length > 0 && email.length > 0)}>
+              {dictionary.form.send}
+            </Button>
+          )}
+          {sendingForm && <Loading />}
+          {formSent && <p className="text-white">{dictionary.form.thanks}</p>}
+          {error && (
+            <p className="text-white">
+              {dictionary.form.error}
+              <Link href="mailto:contacto@whalecomm.io">
+                {dictionary.email}
+              </Link>
+            </p>
+          )}
         </div>
       </form>
     </SectionWrapper>
@@ -111,3 +152,99 @@ const Form = () => {
 };
 
 export default Form;
+
+const Loading = () => {
+  return (
+    <svg
+      width="58"
+      height="58"
+      viewBox="0 0 58 58"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g fill="none" fill-rule="evenodd">
+        <g transform="translate(2 1)" stroke="#FFF" stroke-width="1.5">
+          <circle cx="42.601" cy="11.462" r="5" fill-opacity="1" fill="#fff">
+            <animate
+              attributeName="fill-opacity"
+              begin="0s"
+              dur="1.3s"
+              values="1;0;0;0;0;0;0;0"
+              calcMode="linear"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <circle cx="49.063" cy="27.063" r="5" fill-opacity="0" fill="#fff">
+            <animate
+              attributeName="fill-opacity"
+              begin="0s"
+              dur="1.3s"
+              values="0;1;0;0;0;0;0;0"
+              calcMode="linear"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <circle cx="42.601" cy="42.663" r="5" fill-opacity="0" fill="#fff">
+            <animate
+              attributeName="fill-opacity"
+              begin="0s"
+              dur="1.3s"
+              values="0;0;1;0;0;0;0;0"
+              calcMode="linear"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <circle cx="27" cy="49.125" r="5" fill-opacity="0" fill="#fff">
+            <animate
+              attributeName="fill-opacity"
+              begin="0s"
+              dur="1.3s"
+              values="0;0;0;1;0;0;0;0"
+              calcMode="linear"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <circle cx="11.399" cy="42.663" r="5" fill-opacity="0" fill="#fff">
+            <animate
+              attributeName="fill-opacity"
+              begin="0s"
+              dur="1.3s"
+              values="0;0;0;0;1;0;0;0"
+              calcMode="linear"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <circle cx="4.938" cy="27.063" r="5" fill-opacity="0" fill="#fff">
+            <animate
+              attributeName="fill-opacity"
+              begin="0s"
+              dur="1.3s"
+              values="0;0;0;0;0;1;0;0"
+              calcMode="linear"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <circle cx="11.399" cy="11.462" r="5" fill-opacity="0" fill="#fff">
+            <animate
+              attributeName="fill-opacity"
+              begin="0s"
+              dur="1.3s"
+              values="0;0;0;0;0;0;1;0"
+              calcMode="linear"
+              repeatCount="indefinite"
+            />
+          </circle>
+          <circle cx="27" cy="5" r="5" fill-opacity="0" fill="#fff">
+            <animate
+              attributeName="fill-opacity"
+              begin="0s"
+              dur="1.3s"
+              values="0;0;0;0;0;0;0;1"
+              calcMode="linear"
+              repeatCount="indefinite"
+            />
+          </circle>
+        </g>
+      </g>
+    </svg>
+  );
+};

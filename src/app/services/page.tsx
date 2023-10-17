@@ -21,7 +21,7 @@ const Services = () => {
           <ServicesCard />
         </div>
       </div>
-      <SectionWrapper>
+      <SectionWrapper appearOnScroll>
         <div className="w-full flex lg:flex-row flex-col gap-8 justify-center items-center">
           <div
             className={cx(

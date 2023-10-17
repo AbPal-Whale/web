@@ -6,7 +6,7 @@ import cx from "classnames";
 
 export const WhyIOT = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper appearOnScroll>
       <div className="flex flex-col gap-6">
         <Title title={dictionary.whyUseIoT.title} />
         <div className="flex flex-col gap-12">
