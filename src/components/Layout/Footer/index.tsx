@@ -103,11 +103,11 @@ export const Footer = () => {
             "{{CURRENT_YEAR}}",
             currentYear.toString()
           )}
-          {" | "}
+          {/* {" | "}
           {dictionary.developedBy}
           <Link href="https://hipolito.dev/" target="_blank">
             hipolito.dev
-          </Link>
+          </Link> */}
         </p>
       </div>
     </footer>

@@ -76,22 +76,12 @@ export const Header = () => {
               )}
             >
               <Link href="/">
-                <div className="hidden lg:block">
                   <Image
                     src="/images/logos/whalecomm-black.png"
                     alt={dictionary.logoAlt}
                     width={120}
                     height={120}
                   />
-                </div>
-                <div className="lg:hidden block h-fit">
-                  <Image
-                    src="/images/logos/whalecomm-black.png"
-                    alt={dictionary.logoAlt}
-                    width={80}
-                    height={80}
-                  />
-                </div>
               </Link>
               <div className="hidden lg:flex gap-8">
                 <NavBar items={items} />
