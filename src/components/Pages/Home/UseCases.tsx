@@ -48,7 +48,7 @@ export const UseCases = () => {
               </p>
             </div>
             <div className="w-full md:w-1/2 p-5">
-              <AspectRatio.Root ratio={16 / 9}>
+              <AspectRatio.Root ratio={16 / 8}>
                 <Image
                   src={dictionary.useCases.items[mobileTab].image.path}
                   alt={dictionary.useCases.items[mobileTab].image.alt}

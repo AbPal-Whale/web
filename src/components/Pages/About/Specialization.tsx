@@ -9,7 +9,7 @@ export const Specialization = () => {
   return (
     <SectionWrapper appearOnScroll>
       <div className="w-full flex md:flex-row flex-col md:gap-5 gap-10">
-        <div className="w-full md:w-1/2 lg:w-2/5">
+        <div className="w-full md:w-1/2 lg:w-3/5">
           <div className="h-full flex flex-col justify-center md:text-start text-center md:items-start items-center gap-5">
             <h6 className={typography.H4}>{dictionary.specialization.title}</h6>
             <p className={typography.H6}>
@@ -20,7 +20,7 @@ export const Specialization = () => {
             </Link>
           </div>
         </div>
-        <div className="w-full md:w-1/2 lg:w-3/5 h-full my-auto">
+        <div className="w-full md:w-1/2 lg:w-2/5 h-full my-auto">
           <ServicesCard useCols />
         </div>
       </div>

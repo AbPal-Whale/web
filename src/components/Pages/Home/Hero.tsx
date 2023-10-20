@@ -3,6 +3,7 @@ import typography from "@components/Typography";
 import Button from "@components/UI/Button";
 import dictionary from "@public/translate/home/es.json";
 import Link from "next/link";
+import Image from "next/image";
 
 export const Hero = () => {
   return (
@@ -20,8 +21,13 @@ export const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="lg:w-1/2 w-full flex justify-center items-center bg-[#C4DEFD]">
-          a
+        <div className="relative lg:w-1/2 w-full flex justify-center items-center">
+          <Image
+            src="/images/hero-bg.png"
+            alt=""
+            layout="fill"
+            className="rounded-xl"
+          />
         </div>
       </div>
     </SectionWrapper>

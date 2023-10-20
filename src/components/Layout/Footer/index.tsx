@@ -20,7 +20,7 @@ export const Footer = () => {
         <div className="w-full lg:flex hidden justify-between pt-20 pb-14">
           <div className="flex justify-between items-start">
             <Image
-              src="/images/logos/whalecommBlack.png"
+              src="/images/logos/whalecomm-black.png"
               alt={dictionary.logoAlt}
               width={150}
               height={150}
@@ -59,7 +59,7 @@ export const Footer = () => {
         <div className="w-full lg:hidden grid md:grid-cols-2 grid-cols-1 pt-20 pb-14 md:gap-20 gap-5">
           <div className="flex justify-center items-start">
             <Image
-              src="/images/logos/whalecommBlack.png"
+              src="/images/logos/whalecomm-black.png"
               alt={dictionary.logoAlt}
               width={150}
               height={150}
@@ -97,12 +97,17 @@ export const Footer = () => {
         </div>
       </div>
       <div className="w-full border border-b" />
-      <div className="w-full text-center py-7">
+      <div className="w-full text-center py-3">
         <p className="text-xs font-normal leading-6 text-fuscous-gray-400">
           {dictionary.copyright.replace(
             "{{CURRENT_YEAR}}",
             currentYear.toString()
           )}
+          {" | "}
+          {dictionary.developedBy}
+          <Link href="https://hipolito.dev/" target="_blank">
+            hipolito.dev
+          </Link>
         </p>
       </div>
     </footer>

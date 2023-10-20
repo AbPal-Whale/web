@@ -18,7 +18,7 @@ const Map = () => {
           </div>
           <div className="w-full md:w-1/2">
             <Image
-              src="/images/map.png"
+              src="/images/map.webp"
               alt="world map in dots"
               width={1200}
               height={1500}

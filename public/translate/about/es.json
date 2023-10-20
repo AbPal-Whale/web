@@ -18,5 +18,11 @@
   },
   "services": ["Redes IoT", "Renovación IoT", "Soluciones a la medida."],
   "team": "Nuestro equipo",
-  "contact": "Contáctanos"
+  "contact": "Contáctanos",
+  "images": {
+    "first": "/images/teamwork.webp",
+    "second": "/images/soldering-electronic-circuit-board.webp",
+    "third": "/images/planning-work.webp",
+    "fourth": "/images/measuring-computer-circuit.webp"
+  }
 }

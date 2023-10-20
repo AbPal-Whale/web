@@ -78,7 +78,7 @@ export const Header = () => {
               <Link href="/">
                 <div className="hidden lg:block">
                   <Image
-                    src="/images/logos/whalecommBlack.png"
+                    src="/images/logos/whalecomm-black.png"
                     alt={dictionary.logoAlt}
                     width={120}
                     height={120}
@@ -86,7 +86,7 @@ export const Header = () => {
                 </div>
                 <div className="lg:hidden block">
                   <Image
-                    src="/images/logos/whalecommBlack.png"
+                    src="/images/logos/whalecomm-black.png"
                     alt={dictionary.logoAlt}
                     width={80}
                     height={80}

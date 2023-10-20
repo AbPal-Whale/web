@@ -1,1 +1,0 @@
-https://www.heymeta.com/url/www.iotforall.com/lorawan-most-common-applications-and-use-cases

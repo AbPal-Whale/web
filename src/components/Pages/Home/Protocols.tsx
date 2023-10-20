@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export const Protocols = () => {
   return (
-    <SectionWrapper appearOnScroll>
+    <SectionWrapper padding="lg:pt-36 md:pt-28 pt-20" appearOnScroll>
       <div className="flex flex-col gap-24">
         <Title title={dictionary.protocols.title} />
         <div className="w-full hidden lg:flex md:flex-row flex-col justify-between items-center shrink-0">

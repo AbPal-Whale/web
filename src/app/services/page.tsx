@@ -3,14 +3,21 @@ import SectionWrapper from "@components/SectionWrapper";
 import typography from "@components/Typography";
 import dictionary from "@public/translate/services/es.json";
 import cx from "classnames";
+import Image from "next/image";
 
 const Services = () => {
   return (
     <div className="relative">
       <SectionWrapper background="bg-astronaut-500" padding="pt-36 pb-72">
         <div className="text-white flex flex-col gap-6 max-w-md mx-auto text-center">
-          <div className="w-32 h-32 rounded-full bg-white text-center text-black self-center">
-            Icon
+          <div className="w-32 h-32 rounded-full bg-white text-center text-black self-center flex justify-center items-center">
+            <Image
+              src="/images/icons/engineering.png"
+              alt=""
+              width={100}
+              height={100}
+              className="rounded-xl"
+            />
           </div>
           <h3 className={typography.H3}>{dictionary.title}</h3>
           <p className={typography.body}>{dictionary.description}</p>

@@ -27,10 +27,10 @@ export const News = () => {
               >
                 <div className="flex flex-col gap-5">
                   {link.type === "url" ? (
-                    <div className="w-[332px] h-[200px] rounded-3xl relative">
+                    <div className="w-[332px] h-[200px] rounded-xl relative border">
                       <Image
-                        src={"/images/news/" + index + ".jpg"}
-                        alt={link.title}
+                        src={link.image?.path || ""}
+                        alt={link.image?.alt || ""}
                         fill
                         className="rounded-xl"
                         objectFit="cover"

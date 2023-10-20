@@ -58,15 +58,18 @@ const AccordionDemo = ({ items }: Props) => (
         </Accordion.Header>
         <Accordion.Content
           className={cx(
-            "data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden pt-4"
+            "ease-in-out data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden"
           )}
         >
+          <br />
           <p>{item.content}</p>
-          <ul className="list-disc pl-5">
-            {item.list.map((listItem, index) => (
-              <li key={"service-card-" + index + "-list-item"}>{listItem}</li>
-            ))}
-          </ul>
+          <p>
+            <ul className="list-disc pl-5">
+              {item.list.map((listItem, index) => (
+                <li key={"service-card-" + index + "-list-item"}>{listItem}</li>
+              ))}
+            </ul>
+          </p>
         </Accordion.Content>
       </Accordion.Item>
     ))}

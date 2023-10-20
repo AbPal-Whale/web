@@ -60,7 +60,11 @@
           "Automatización de la operación."
         ]
       }
-    ]
+    ],
+    "image": {
+      "path": "/images/soldering-electronic-circuit.webp",
+      "alt": "Servicios"
+    }
   },
   "whyUseIoT": {
     "title": "¿Por qué utilizar redes IoT?",
@@ -86,7 +90,7 @@
       {
         "title": "Ciudades inteligentes",
         "image": {
-          "path": "/images/electricity.jpg",
+          "path": "/images/smart-city.webp",
           "alt": "Electricidad"
         },
         "description": [
@@ -104,7 +108,7 @@
       {
         "title": "Soluciones de agua",
         "image": {
-          "path": "/images/water.jpeg",
+          "path": "/images/water.webp",
           "alt": "Agua potable"
         },
         "description": [
@@ -121,7 +125,7 @@
       {
         "title": "Agricultura de precisión",
         "image": {
-          "path": "/images/farmer.jpg",
+          "path": "/images/farmer.webp",
           "alt": "Agronomia"
         },
         "description": [
@@ -135,7 +139,7 @@
       {
         "title": "Manufactura y logística",
         "image": {
-          "path": "/images/water.jpeg",
+          "path": "/images/logistics.webp",
           "alt": "Agua potable"
         },
         "description": [
@@ -155,25 +159,41 @@
         "type": "url",
         "title": "LoRaWAN - Most Common Applications and Use Cases",
         "description": "With the help of LoRaWAN technology, we can connect millions of devices to create smart cities, buildings, agriculture, and more!",
-        "url": "https://www.iotforall.com/lorawan-most-common-applications-and-use-cases"
+        "url": "https://www.iotforall.com/lorawan-most-common-applications-and-use-cases",
+        "image": {
+          "path": "/images/news/0.webp",
+          "alt": ""
+        }
       },
       {
         "type": "url",
         "title": "Wi-SUN Alliance amplía la compatibilidad para la infraestructura inteligente en América Latina",
         "description": "Los perfiles disponibles de Wi-SUN aceleran la red eléctrica inteligente, las ciudades inteligentes e IoT (Internet de las cosas, por sus siglas en inglés)...",
-        "url": "https://www.globenewswire.com/en/news-release/2015/11/24/789930/34640/es/Wi-SUN-Alliance-ampl%C3%ADa-la-compatibilidad-para-la-infraestructura-inteligente-en-Am%C3%A9rica-Latina.html"
+        "url": "https://www.globenewswire.com/en/news-release/2015/11/24/789930/34640/es/Wi-SUN-Alliance-ampl%C3%ADa-la-compatibilidad-para-la-infraestructura-inteligente-en-Am%C3%A9rica-Latina.html",
+        "image": {
+          "path": "/images/news/1.webp",
+          "alt": ""
+        }
       },
       {
         "type": "url",
         "title": "LoRaWAN Connects Cities",
         "description": "LoRaWAN makes cities smarter. With a LoRaWAN network, a city can deploy a single type of sensor and easily add new use cases to the same network.",
-        "url": "https://resources.lora-alliance.org/smart-cities/smart-cities-infographic-2022"
+        "url": "https://resources.lora-alliance.org/smart-cities/smart-cities-infographic-2022",
+        "image": {
+          "path": "/images/news/2.webp",
+          "alt": ""
+        }
       },
       {
         "type": "url",
         "title": "Do the Economics of 5G Add Up?",
         "description": "Reliable energy is essential to businesses, and homes, and supports economic growth. Economic and geopolitical challenges put energy at risk.",
-        "url": "https://wi-sun.org/blog/economic-5g/"
+        "url": "https://wi-sun.org/blog/economic-5g/",
+        "image": {
+          "path": "/images/news/3.webp",
+          "alt": ""
+        }
       },
       {
         "type": "file",
