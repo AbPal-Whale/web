@@ -68,7 +68,7 @@ export const Header = () => {
           <div>
             <div
               className={cx(
-                "w-full max-w-[1480px] m-auto px-8",
+                "w-full max-w-[1480px] mx-auto px-8",
                 "flex justify-between items-center py-4",
                 showHeader
                   ? "transform translate-y-0"
@@ -84,7 +84,7 @@ export const Header = () => {
                     height={120}
                   />
                 </div>
-                <div className="lg:hidden block">
+                <div className="lg:hidden block h-fit">
                   <Image
                     src="/images/logos/whalecomm-black.png"
                     alt={dictionary.logoAlt}

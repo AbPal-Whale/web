@@ -30,8 +30,8 @@ export const UseCases = () => {
               setMobileTab(index);
             }}
           />
-          <div className="w-full flex-col-reverse md:flex-row gap-5 bg-white">
-            <div className="w-full md:w-1/2 p-5">
+          <div className="w-full flex-col-reverse lg:flex-row gap-5 bg-white">
+            <div className="w-full lg:w-1/2 p-5">
               <p className={typography.body}>
                 <ul className="list-disc pl-5">
                   {dictionary.useCases.items[mobileTab].description.map(
@@ -47,7 +47,7 @@ export const UseCases = () => {
                 </ul>
               </p>
             </div>
-            <div className="w-full md:w-1/2 p-5">
+            <div className="w-full lg:w-1/2 p-5">
               <AspectRatio.Root ratio={16 / 8}>
                 <Image
                   src={dictionary.useCases.items[mobileTab].image.path}

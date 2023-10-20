@@ -1,6 +1,7 @@
 import SectionWrapper from "@/components/SectionWrapper";
 import typography from "@/components/Typography";
 import dictionary from "@public/translate/about/es.json";
+import Image from "next/image";
 
 export const DescriptionMobile = () => {
   return (
@@ -16,15 +17,39 @@ export const DescriptionMobile = () => {
       </div>
       <div className="hidden md:grid grid-cols-2 gap-12">
         <div className="justify-self-end">
-          <div className="w-[521px] h-[346px] bg-[#C4DEFD] rounded-3xl" />
+          <div className="relative w-full flex justify-center items-center h-[346px] rounded-3xl">
+            <Image
+              src={dictionary.images.third}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-xl"
+            />
+          </div>
         </div>
         <div className="justify-self-start">
-          <div className="w-[521px] h-[346px] bg-[#C4DEFD] rounded-3xl" />
+          <div className="relative w-full flex justify-center items-center h-[346px] rounded-3xl">
+            <Image
+              src={dictionary.images.fourth}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-xl"
+            />
+          </div>
         </div>
       </div>
       <div className="md:hidden block">
         <div className="justify-self-end">
-          <div className="w-full h-[280px] bg-[#C4DEFD] rounded-3xl" />
+          <div className="relative w-full flex justify-center items-center h-[280px] rounded-3xl">
+            <Image
+              src={dictionary.images.fourth}
+              alt=""
+              width={500}
+              height={500}
+              className="rounded-xl"
+            />
+          </div>
         </div>
       </div>
     </SectionWrapper>

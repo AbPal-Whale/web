@@ -25,7 +25,8 @@ export const Hero = () => {
           <Image
             src="/images/hero-bg.png"
             alt=""
-            layout="fill"
+            width={500}
+            height={500}
             className="rounded-xl"
           />
         </div>

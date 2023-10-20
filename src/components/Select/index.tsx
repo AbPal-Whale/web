@@ -22,7 +22,7 @@ const SelectCustom = ({ tabs, onClick }: Props) => (
     defaultValue={tabs[0].title}
   >
     <Select.Trigger
-      className="w-full inline-flex items-center justify-center rounded px-[15px] text-[13px] leading-none h-[35px] gap-[5px] bg-white text-violet11 shadow-[0_2px_10px] shadow-black/10 hover:bg-mauve3 data-[placeholder]:text-violet9 outline-none"
+      className="w-full inline-flex items-center justify-center rounded px-[15px] text-xl leading-none h-14 gap-[5px] bg-white text-violet11 shadow-[0_2px_10px] shadow-black/10 hover:bg-mauve3 data-[placeholder]:text-violet9 outline-none"
       aria-label="Food"
     >
       <Select.Value placeholder="Select a fruit…" />
@@ -42,11 +42,11 @@ const SelectCustom = ({ tabs, onClick }: Props) => (
                 key={"tab-" + index}
                 value={title}
                 className={classnames(
-                  "w-full text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] pr-[35px] pl-[25px] relative select-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:outline-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1"
+                  "w-full text-xl leading-none text-violet11 rounded-[3px] flex items-center h-[25px] pr-[35px] pl-[25px] relative select-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:outline-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1"
                 )}
               >
                 <Select.ItemText>{title}</Select.ItemText>
-                <Select.ItemIndicator className="absolute left-0 w-[full] inline-flex items-center justify-center">
+                <Select.ItemIndicator className="absolute left-0 w-full inline-flex items-center justify-center">
                   <CheckIcon />
                 </Select.ItemIndicator>
               </Select.Item>
