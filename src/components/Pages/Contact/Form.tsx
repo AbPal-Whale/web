@@ -8,8 +8,6 @@ import cx from "classnames";
 import Link from "next/link";
 import { useState } from "react";
 
-const API_URL = process.env.POSTMARK_FROM;
-
 const Form = () => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
@@ -27,7 +25,7 @@ const Form = () => {
     setSendingForm(true);
 
     try {
-      const response = await fetch(API_URL + "/contact", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -130,7 +128,7 @@ const Form = () => {
           />
         </div>
         <div className="w-full flex justify-end pt-5 transition-all">
-          {!formSent && !sendingForm && (
+          {!formSent && !sendingForm && !error && (
             <Button disabled={!(name.length > 0 && email.length > 0)}>
               {dictionary.form.send}
             </Button>
