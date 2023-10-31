@@ -37,11 +37,7 @@ export async function POST(request: NextRequest) {
       `,
     };
 
-    transporter.sendMail(mailOptions, (error: any) => {
-      if (error) {
-        return console.log(error);
-      }
-    });
+   await transporter.sendMail(mailOptions);
   } catch (error) {
     return new Response(JSON.stringify({}), { status: 500 });
   }
