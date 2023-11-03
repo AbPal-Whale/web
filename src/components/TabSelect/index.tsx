@@ -7,6 +7,7 @@ import Image from "next/image";
 interface Props {
   tabs: {
     title: string;
+    shortDescription: string;
     description: string[];
     image: {
       path: string;
@@ -36,10 +37,12 @@ const TabsCustom = ({ tabs }: Props) => (
         </Tabs.Trigger>
       ))}
     </Tabs.List>
-    {tabs.map(({ description, image }, index) => (
+    {tabs.map(({ description, shortDescription, image }, index) => (
       <Tabs.Content key={"tab-" + index} value={"tab-" + index}>
         <div className="w-full flex gap-5 bg-white">
           <div className="w-1/2 p-5">
+            <p className={typography.body}>{shortDescription}</p>
+            <br />
             <p className={typography.body}>
               <ul className="list-disc pl-5">
                 {description.map((listItem, index) => (

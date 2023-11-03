@@ -93,6 +93,7 @@
           "path": "/images/smart-city.webp",
           "alt": "Electricidad"
         },
+        "shortDescription": "Conexión inalámbrica de medidores de agua.",
         "description": [
           "Conexión inalámbrica de medidores de consumo eléctrico.",
           "Control y monitoreo de luminarias públicas.",
@@ -111,6 +112,7 @@
           "path": "/images/water.webp",
           "alt": "Agua potable"
         },
+        "shortDescription": "Conexión inalámbrica de medidores de agua.",
         "description": [
           "Conexión inalámbrica de medidores de agua.",
           "Automatización e integración con plataformas de recaudación.",
@@ -128,6 +130,7 @@
           "path": "/images/farmer.webp",
           "alt": "Agronomia"
         },
+        "shortDescription": "Conexión inalámbrica de medidores de agua.",
         "description": [
           "Sensores de humedad a distintas profundidades del suelo.",
           "Control y automatización de los sistemas de irrigación.",
@@ -142,6 +145,7 @@
           "path": "/images/logistics.webp",
           "alt": "Agua potable"
         },
+        "shortDescription": "Conexión inalámbrica de medidores de agua.",
         "description": [
           "Control de accesos",
           "Conteo de personas",

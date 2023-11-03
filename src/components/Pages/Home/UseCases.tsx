@@ -18,6 +18,7 @@ export const UseCases = () => {
       <div className="flex flex-col gap-24">
         <Title title={dictionary.useCases.title} className="text-white" />
         <div className="hidden lg:block">
+          {/* Desktop */}
           <TabsCustom tabs={dictionary.useCases.items} />
         </div>
         <div className="bg-white block lg:hidden">
@@ -30,8 +31,13 @@ export const UseCases = () => {
               setMobileTab(index);
             }}
           />
+          {/* Mobile */}
           <div className="w-full flex-col-reverse lg:flex-row gap-5 bg-white">
             <div className="w-full lg:w-1/2 p-5">
+              <p className={typography.body}>
+                {dictionary.useCases.items[mobileTab].shortDescription}
+              </p>
+              <br />
               <p className={typography.body}>
                 <ul className="list-disc pl-5">
                   {dictionary.useCases.items[mobileTab].description.map(
