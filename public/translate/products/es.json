@@ -5,11 +5,11 @@
   "products": [
     {
       "images": [
-        "/images/products/AdaptadorAgua/0.jpg",
-        "/images/products/AdaptadorAgua/1.jpg",
-        "/images/products/AdaptadorAgua/2.jpg",
-        "/images/products/AdaptadorAgua/3.jpg",
-        "/images/products/AdaptadorAgua/4.jpg"
+        "/images/products/AdaptadorAgua/0.png",
+        "/images/products/AdaptadorAgua/1.png",
+        "/images/products/AdaptadorAgua/2.png",
+        "/images/products/AdaptadorAgua/3.png",
+        "/images/products/AdaptadorAgua/4.png"
       ],
 
       "name": "Adaptador para medidor de agua",
@@ -43,8 +43,9 @@
     },
     {
       "images": [
-        "/images/products/GatewayLora/0.jpg",
-        "/images/products/GatewayLora/1.jpg"
+        "/images/products/GatewayLora/0.png",
+        "/images/products/GatewayLora/1.png",
+        "/images/products/GatewayLora/2.png"
       ],
 
       "name": "Gateway LoRaWAN",
