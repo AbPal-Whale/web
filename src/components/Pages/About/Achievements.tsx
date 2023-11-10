@@ -11,13 +11,13 @@ export const Achievements = () => {
     >
       <div className="flex md:flex-row flex-col gap-10 justify-evenly text-white text-center">
         <div className="flex flex-col gap-4">
-          <h1 className={typography.H2}>WISUN</h1>
+          <h1 className={typography.H2}>Wi-SUN</h1>
           <p className={typography.bodySmall}>
             {dictionary.achievements.items[0]}
           </p>
         </div>
         <div className="flex flex-col gap-4">
-          <h1 className={typography.H2}>+1,000</h1>
+          <h1 className={typography.H2}>+1,000 PoPs</h1>
           <p className={typography.bodySmall}>
             {dictionary.achievements.items[1]}
           </p>
