@@ -5,18 +5,18 @@
   "products": [
     {
       "images": [
-        "/images/products/0.jpg"
+        "/images/products/TarjetaEscalamiento/0.jpg"
       ],
       "name": "Tarjeta de escalamiento",
       "description": "Módulo inteligente para medidores de consumo eléctrico. Cumple con la norma GWH-0079 de CFE. Permite la lectura remota en tiempo real, así como el cambio en los parámetros de configuración del medidor. Comunicación inalámbrica vía Wi-SUN."
     },
     {
       "images": [
-        "/images/products/0.jpg",
-        "/images/products/1.jpg",
-        "/images/products/2.jpg",
-        "/images/products/3.jpg",
-        "/images/products/4.jpg"
+        "/images/products/AdaptadorAgua/0.jpg",
+        "/images/products/AdaptadorAgua/1.jpg",
+        "/images/products/AdaptadorAgua/2.jpg",
+        "/images/products/AdaptadorAgua/3.jpg",
+        "/images/products/AdaptadorAgua/4.jpg"
       ],
 
       "name": "Adaptador para medidor de agua",
@@ -24,11 +24,9 @@
     },
     {
       "images": [
-        "/images/products/0.jpg",
-        "/images/products/1.jpg",
-        "/images/products/2.jpg",
-        "/images/products/3.jpg",
-        "/images/products/4.jpg"
+        "/images/products/NodoFinal_Wisun/0.jpg",
+        "/images/products/NodoFinal_Wisun/1.jpg",
+        "/images/products/NodoFinal_Wisun/2.jpg"
       ],
 
       "name": "Nodo final Wi-SUN personalizable",
@@ -36,11 +34,8 @@
     },
     {
       "images": [
-        "/images/products/0.jpg",
-        "/images/products/1.jpg",
-        "/images/products/2.jpg",
-        "/images/products/3.jpg",
-        "/images/products/4.jpg"
+        "/images/products/BorderRouterWiSUN/0.jpg",
+        "/images/products/BorderRouterWiSUN/1.jpg"
       ],
 
       "name": "Border Router Wi-SUN",
@@ -48,11 +43,8 @@
     },
     {
       "images": [
-        "/images/products/0.jpg",
-        "/images/products/1.jpg",
-        "/images/products/2.jpg",
-        "/images/products/3.jpg",
-        "/images/products/4.jpg"
+        "/images/products/GatewayLora/0.jpg",
+        "/images/products/GatewayLora/1.jpg"
       ],
 
       "name": "Gateway LoRaWAN",
