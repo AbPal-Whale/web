@@ -5,13 +5,6 @@
   "products": [
     {
       "images": [
-        "/images/products/TarjetaEscalamiento/0.jpg"
-      ],
-      "name": "Tarjeta de escalamiento",
-      "description": "Módulo inteligente para medidores de consumo eléctrico. Cumple con la norma GWH-0079 de CFE. Permite la lectura remota en tiempo real, así como el cambio en los parámetros de configuración del medidor. Comunicación inalámbrica vía Wi-SUN."
-    },
-    {
-      "images": [
         "/images/products/AdaptadorAgua/0.jpg",
         "/images/products/AdaptadorAgua/1.jpg",
         "/images/products/AdaptadorAgua/2.jpg",
@@ -21,6 +14,13 @@
 
       "name": "Adaptador para medidor de agua",
       "description": "Adaptador para cualquier marca y modelo de medidor de agua. Permite la lectura en tiempo real y la personalización de parámetros de lectura de manera remota. Autonomía energética para +5 años."
+    },
+    {
+      "images": [
+        "/images/products/TarjetaEscalamiento/0.jpg"
+      ],
+      "name": "Tarjeta de escalamiento",
+      "description": "Módulo inteligente para medidores de consumo eléctrico. Cumple con la norma GWH-0079 de CFE. Permite la lectura remota en tiempo real, así como el cambio en los parámetros de configuración del medidor. Comunicación inalámbrica vía Wi-SUN."
     },
     {
       "images": [
