@@ -5,11 +5,7 @@
   "products": [
     {
       "images": [
-        "/images/products/0.jpg",
-        "/images/products/1.jpg",
-        "/images/products/2.jpg",
-        "/images/products/3.jpg",
-        "/images/products/4.jpg"
+        "/images/products/0.jpg"
       ],
       "name": "Tarjeta de escalamiento",
       "description": "Módulo inteligente para medidores de consumo eléctrico. Cumple con la norma GWH-0079 de CFE. Permite la lectura remota en tiempo real, así como el cambio en los parámetros de configuración del medidor. Comunicación inalámbrica vía Wi-SUN."
