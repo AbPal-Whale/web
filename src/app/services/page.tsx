@@ -12,7 +12,7 @@ const Services = () => {
         <div className="text-white flex flex-col gap-6 max-w-md mx-auto text-center">
           <div className="w-32 h-32 rounded-full bg-white text-center text-black self-center flex justify-center items-center">
             <Image
-              src="/images/icons/engineering.png"
+              src="/images/icons/Logo_cola_negro.png"
               alt=""
               width={100}
               height={100}
