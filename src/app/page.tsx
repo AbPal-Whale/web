@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      {/* <Video /> */}
+      <Video />
       <Protocols />
       <Services />
       <WhyIOT />

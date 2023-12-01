@@ -6,7 +6,7 @@ import dictionary from "@public/translate/home/es.json";
 import * as AspectRatio from "@radix-ui/react-aspect-ratio";
 
 export const Video = () => {
-  const videoId = "B_JFZuTZI0g";
+  const videoId = "MisxnvjB0mU";
   return (
     <SectionWrapper>
       <div className="w-full flex lg:flex-row flex-col-reverse gap-16 shrink-0">
