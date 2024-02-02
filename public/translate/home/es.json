@@ -36,9 +36,9 @@
     "title": "Servicios",
     "items": [
       {
-        "title": "Desarrollo de sistemas embebeidos para IoT",
+        "title": "Desarrollo de sistemas de telemetría para IoT",
         "content": "Somos especialistas en el diseño de hardware y software para comunicaciones inalámbricas.",
-        "list": ["Sensores", "Actudadores", "Gateways", "Router"]
+        "list": ["Sensores", "Actuadores", "Gateways", "Routers"]
       },
       {
         "title": "Despliegue de redes IoT bajo demanda",
@@ -46,18 +46,18 @@
         "list": [
           "Seleccionar el protocolo idóneo.",
           "Dimensionar las necesidades técnicas.",
-          "Implementar en campo optimizando los recursos.",
+          "Implementar en campo optimizando los recursos disponibles.",
           "Operar y dar mantenimiento a la red de comunicaciones."
         ]
       },
       {
         "title": "Plataforma de monitoreo y control",
-        "content": "Brindamos una solución integral de monitoreo y control de tus dispositivos  desde una plataforma centralizada.",
+        "content": "Brindamos una solución integral de monitoreo y control de tus dispositivos desde una plataforma centralizada.",
         "list": [
           "Generación de reportes.",
           "Construcción de dashboards.",
-          "Control de dispositivos.",
-          "Automatización de la operación."
+          "Control remoto de dispositivos.",
+          "Automatización e integración de tu operación."
         ]
       }
     ],
@@ -76,7 +76,7 @@
       },
       {
         "title": "Específicamente diseñados para banda angosta.",
-        "description": "La infraestructura está pensada para transmitir pocos datos a un precio bajo."
+        "description": "La infraestructura está pensada para transmitir datos a un precio bajo."
       },
       {
         "title": "Largo alcance.",
